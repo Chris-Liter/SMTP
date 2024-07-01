@@ -1,0 +1,6 @@
+@SMTP_HostAddress = http://localhost:5074
+
+GET {{SMTP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
